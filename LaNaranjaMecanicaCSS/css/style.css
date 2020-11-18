@@ -1,0 +1,595 @@
+body {
+    background-color: #ef6926;
+}
+.titulo {
+    font-size: 400%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    color: black;
+    text-align: center;
+}
+#menu {
+    width: 100%;
+    margin: 1.5rem auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#menu ul {
+    font-size: 0;
+    list-style-type: none;
+    text-align: center;
+}
+#menu > ul li {
+    background-color: black;
+    position: relative;
+    display: inline-block;
+    width: 25%;
+}
+#menu li a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 2.5rem;
+}
+#menu li:hover a, #menu li a:focus {
+    background: #ef6926;
+    color: white;
+}
+#menu li ul {
+    overflow: hidden;
+    position: absolute;
+    width: 0%;
+}
+#menu li:hover > ul {
+    display: block;
+}
+.recuadro1 {
+    background-color: white;
+    position: relative;
+    margin-left: 6px;
+    margin-right: 6px;
+    width: 97vw;
+    height: 80vh;
+}
+#lanaranjamecanica {
+    float: left;
+    padding-top: 30px;
+    width: 30vw;
+    height: 70vh;
+}
+#inicio {
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.pinicio {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    width: 65vw;
+    height: 66vh;
+    padding-top: 10px;
+    padding-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: justify;
+    align-items: center;
+}
+.recuadro2 {
+    background-color: black;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 6px;
+    margin-right: 6px;
+    width: 97vw;
+    height: 150vh;
+}
+#director {
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.director1 {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    width: 65vw;
+    height: 66vh;
+    color: white;
+    padding-left: 10px;
+    padding-right: 6px;
+    font-size: large;
+    text-align: justify;
+}
+#stanleykubrick {
+    float: left;
+    padding-top: 120px;
+    padding-left: 20px;
+    width: 28vw;
+    height: 70vh;
+}
+.director2 {
+    color: white;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.director3 {
+    text-align: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.recuadro3 {
+    background-color: white;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 6px;
+    margin-right: 6px;
+    width: 97vw;
+    height: 155vh;
+}
+#personajes {
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.personajes1 {
+    display: flex;
+    flex-direction: row;
+}
+.alexander2 {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #ef6926;
+    margin-left: 8px;
+    padding-left: 10px;
+}
+.titalex {
+    flex: content;
+    text-align: center;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.alexander3 {
+    display: flex;
+    flex-direction: row;
+    width: 100vh;
+    height: 40vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: justify;
+    padding-right: 6px;
+}
+#alexander {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 250px;
+    padding-left: 6px;
+}
+.dim1 {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #ef6926;
+    position: relative;
+}
+.titdim {
+    flex: content;
+    text-align: center;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dim2 {
+    display: flex;
+    flex-direction: row;
+    width: 100vh;
+    height: 40vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: justify;
+    padding-left: 6px;
+}
+#dim {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 6px;
+    padding-right: 6px;
+    width: 250px;
+    height: 250px;
+}
+.personajes2 {
+    display: flex;
+    flex-direction: row;
+}
+.sacerdote1 {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #ef6926;
+    margin-left: 8px;
+    padding-left: 10px;
+    height: 45vh;
+}
+.titsacerdote {
+    flex: content;
+    text-align: center;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sacerdote2 {
+    display: flex;
+    flex-direction: row;
+    width: 100vh;
+    height: 20vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: justify;
+    padding-right: 6px;
+}
+#sacerdote {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 250px;
+    padding-left: 6px;
+}
+.ministro1 {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #ef6926;
+    position: relative;
+}
+.titministro {
+    flex: content;
+    text-align: center;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ministro2 {
+    display: flex;
+    flex-direction: row;
+    width: 100vh;
+    height: 20vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: justify;
+    padding-left: 6px;
+}
+#ministrointerior {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 6px;
+    padding-right: 6px;
+    width: 250px;
+    height: 250px;
+}
+.escritor1 {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #ef6926;
+    margin-left: 8px;
+    padding-left: 10px;
+    height: 45vh;
+    width: 95vw;
+}
+.titescritor {
+    flex: content;
+    text-align: center;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.escritor2 {
+    display: flex;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: justify;
+    padding-left: 6px;
+}
+#escritor {
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 250px;
+    padding-right: 6px;
+    padding-left: 6px;
+}
+.recuadro4 {
+    background-color: black;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 6px;
+    margin-right: 6px;
+    width: 97vw;
+    height: 35vh;
+}
+.titver {
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+.table {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.recuadro5 {
+    background-color: white;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 6px;
+    margin-right: 6px;
+    width: 97vw;
+    height: 235vh;
+}
+.titmedia {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;    
+}
+.tittrailer {
+    text-align: center;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.trailer1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.iframe {
+    position: relative;
+    height: 400px;
+    width: 700px;
+}
+.imagenes1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.titimagenes {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imagenes2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.imagenes3 {
+    position: relative;
+    top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#foto1 {
+    height: 250px;
+    width: 250px;
+}
+#foto2 {
+    height: 250px;
+    width: 250px;
+}
+#foto3 {
+    height: 250px;
+    width: 250px;
+}
+#foto3 {
+    height: 250px;
+    width: 250px;;
+}
+#foto4 {
+    height: 250px;
+    width: 250px;
+}
+#foto5 {
+    height: 250px;
+    width: 250px;
+}
+#foto6 {
+    height: 250px;
+    width: 250px;
+}
+#foto7 {
+    height: 250px;
+    width: 250px;
+}
+#foto8 {
+    height: 250px;
+    width: 250px;
+}
+#foto9 {
+    height: 250px;
+    width: 250px;
+}
+#foto10 {
+    height: 250px;
+    width: 250px;
+    opacity: .2;
+}
+.video1 {
+    display: flex;
+    flex-direction: column;
+}
+.titvideo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+.video2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.recuadro6 {
+    background-color: black;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 6px;
+    margin-right: 6px;
+    width: 97vw;
+    height: 115vh;
+}
+.titopinion {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+    color: white;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: white;
+}
+.botones {
+    padding-top: 15px;
+}
+.recuadro7 {
+    background: radial-gradient(#ef6926, white);
+    position: relative;
+    margin-top: 20px;
+    margin-left: 6px;
+    margin-right: 6px;
+    width: 97vw;
+    height: 70vh;
+}
+.titlinks {
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: center;
+}
+.link1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.link2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.recuadro8 {
+    background-color: black;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 6px;
+    margin-right: 6px;
+    width: 97vw;
+    height: 250vh;
+}
+.titanalisis {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white
+}
+.delincuencia {
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: white;
+}
+.relaciones {
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: white;
+}
+.abuso {
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: white;
+}
+.significado {
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: white;
+}
+.parrafos {
+    color: white;
+    font-size: large;
+}
+#vangogh {
+    float: left;
+    padding-top: 100px;
+    padding-left: 20px;
+    width: 20vw;
+    height: 50vh;
+}
+.curiosidades {
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    width: 65vw;
+    height: 66vh;
+    color: white;
+    padding-left: 10px;
+    padding-right: 6px;
+    font-size: large;
+    text-align: center;
+}
+.footer {
+    padding: 6px;
+    background-color: white;
+    margin-top: 20px;
+    width: 97vw;
+    font-size: large;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
